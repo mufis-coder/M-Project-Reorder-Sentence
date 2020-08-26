@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[62]:
+# In[1]:
 
 
 from itertools import permutations
@@ -117,37 +117,22 @@ for i in total:
     print(hasil_kal)
 
 
-# In[250]:
+# In[ ]:
 
 
-Subjek_per = permutations(Subjek, len(Subjek))
-# print(list(Subjek_per)) #permutasi di dalam permutasi
-
-# for i in list(Subjek_per):
-#     print(i)
-#     print(i[0], i[1])
-
-# kata1 = 'SPOK'
-# for i in list(Subjek_per):
-#     kalimat=''
-#     ke = 0
-#     for x in kata1:
-#         if x=='S' or x=='O':
-#             kalimat += str(jenis[i[ke]])
-#         if ke+1<len(i):
-#             ke += 1
-#         if x=='P':
-#             kalimat += str(jenis['P1'])
-#         kalimat += ' '
-#     print(kalimat)
 
 
-# In[48]:
+
+# In[ ]:
 
 
-jenis_kata = 'L'
-jenis_kata = 'MM'
-print(jenis_kata)
+
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:
